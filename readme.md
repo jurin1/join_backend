@@ -63,7 +63,7 @@ This is the backend API for a task management application. It's built using Djan
     ```
     This creates a super user who can log in at http://localhost:8000/admin.
 
-6.  **Creat a guest user:**
+6.  ** (Optional) Creat a guest user:**
     ```bash
     python manage.py shell
     ```
