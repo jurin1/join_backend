@@ -9,7 +9,7 @@ This is the backend API for a task management application. It's built using Djan
 - **Task Management:** Creating, reading, updating, and deleting tasks, including features like status, priority, due dates, categories, and subtasks (stored as JSON).
 - **Urgent Task Listing:**  Retrieving a list of urgent and upcoming tasks.
 
-you need the [frontend](https://github.con/jurin1/join_frontend) project to work.
+you need the [frontend](https://github.com/jurin1/join_frontend) project to work.
 
 ## Technologies Used
 
