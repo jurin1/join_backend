@@ -57,6 +57,29 @@ This is the backend API for a task management application. It's built using Djan
     ```
     The backend will be accessible at `http://localhost:8000` or `http://127.0.0.1:8000`.
 
+5.  **Creat a super user:**
+    ```bash
+    python manage.py createsuperuser
+    ```
+    This creates a super user who can log in at http://localhost:8000/admin.
+
+6.  **Creat a guest user:**
+    ```bash
+    python manage.py shell
+    ```
+
+    ```bash
+    from django.contrib.auth.models import User
+    User.objects.create_user(username='guest', email='guest@test.de', password='Test123!',       first_name='Gast')
+    ```
+
+    ```bash
+    exit()
+    ```
+    
+
+
+
 ### Docker Setup
 
 1.  **Ensure Docker and Docker Compose are installed.**
