@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+
+# Virtuelle Umgebungen
+venv/
+env/
+.virtualenv/
+
+# Django spezifisch
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+media/
+staticfiles/
+*manage.py
+*data.json
+
+# Umgebungsvariablen & Secrets
+.env
+*.pem
+config/settings/local.py
+config/settings/.env
+
+# Cache und Build
+*.egg-info/
+*.egg
+*.cache
+*.mo
+*.pyc
+.coverage
+htmlcov/

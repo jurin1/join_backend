@@ -1,0 +1,13 @@
+services:
+  join_backend_web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app/  
+    environment:
+      DJANGO_SETTINGS_MODULE: join_backend.settings
+      DEBUG: ${DJANGO_DEBUG:-False}
+    env_file:
+      - .env
+    ports:
+      - "8888:8000"
