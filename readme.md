@@ -30,7 +30,7 @@ This is the backend API for a task management application. It's built using Djan
 1.  **Clone the repository:**
     ```bash
     git clone git@github.com:jurin1/join_backend.git
-    cd jurin1-join_backend
+    cd join_backend
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -63,7 +63,7 @@ This is the backend API for a task management application. It's built using Djan
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd jurin1-join_backend
+    cd join_backend
     ```
 
 3.  **Build and run the Docker containers:**
