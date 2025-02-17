@@ -20,7 +20,6 @@ db.sqlite3
 *.sqlite3
 media/
 staticfiles/
-*manage.py
 *data.json
 
 # Umgebungsvariablen & Secrets
