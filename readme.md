@@ -29,7 +29,7 @@ This is the backend API for a task management application. It's built using Djan
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:jurin1/join_backend.git
     cd jurin1-join_backend
     ```
 
