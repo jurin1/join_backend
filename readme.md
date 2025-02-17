@@ -70,7 +70,7 @@ This is the backend API for a task management application. It's built using Djan
 
     ```bash
     from django.contrib.auth.models import User
-    User.objects.create_user(username='guest', email='guest@test.de', password='Test123!',       first_name='Gast')
+    User.objects.create_user(username='guest', email='guest@test.de', password='Test123!', first_name='Gast')
     ```
 
     ```bash
