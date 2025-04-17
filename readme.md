@@ -1,4 +1,4 @@
-# Jurin1 Task Management Backend
+# Task Management Backend
 
 ## Project Description
 
